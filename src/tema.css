@@ -1,0 +1,20 @@
+/* src/tema.css */
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button.dark{
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+div.light {
+    background-color: aliceblue;
+}
+div.dark {
+    background-color: #f90;
+}
+.dark.destaque {
+    background-color: #333333; /* Escolha a cor desejada */
+}
