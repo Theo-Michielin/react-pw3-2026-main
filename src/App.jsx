@@ -5,8 +5,8 @@ import { ThemeProvider } from './contexts/ThemeContext'
 import AppTarefas from './pages/Tarefas/AppTarefas'
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
-import Usuarios from './pages/usuarios'
-
+import Usuarios from './pages/Usuarios'
+import UsuarioDetalhe from './pages/UsuarioDetalhe'
 
 function App() {
 
@@ -32,8 +32,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/tarefas" element={<AppTarefas />} />
-            <Route path="/usuarios" element={<Usuarios />}></Route>
+            <Route path="/usuarios" element={<Usuarios />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/usuarios/:id" element={<UsuarioDetalhe />} />
           </Routes>
         </div>
       </BrowserRouter>
